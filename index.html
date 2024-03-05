@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay-PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/b8588f915b.js" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/ab46faa3ae.js"></script>
+
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Akshay-Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+            <li><a href="#certifications" onclick="toggleMenu();">Certifications</a></li>
+             <!--<li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>-->
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Homkar Akshay Dilip</span></h2>
+            <h3>M. E. Computer Engineering</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/adh.png" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Homkar Akshay Dilip</b>, working as a Assistant Professor in Computer Science and Information Technology at KES's Rajarambapu Institute of Technology, A/P - Rajaramnagar, Sakharale, Islampur, Sangali-415414</h2>
+                <p>I have completed my master's in Computer Engineering from JSPMS’s Jayawantrao  Sawant College of Engineering, Hadpsar, Pune with First class with Distinction 8.110 CGPA in final year October 2017.</p><br>
+				<p>I Enjoy taking Classes so i can relate more of my students & help them.  Was Active Web Developer & Support for Live Hosting , SSL and other integration.</p><br>
+                <p>I also like to work in Cyber Security. Currently I am working on Kali-linux, BlackArch-Linux, CSI-linux for Foresics. I am also looking for work in Website Security Audit due which we can diagnose the loopholes in website (with prior initimation and legal consent i.e. non voilation of any rule). I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
+                <div class="heading bottom">
+                    <a href="images/Resume_akshay_up.pdf" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Homkar Akshay Dilip<br>
+                        <b>Age:</b> 36
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> akshayhomkar@gmail.com<br>
+                        <b>Location:</b> INDIA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Services Layout in HTML -->
+    <section class="services" id="skills">
+        <div class="heading white">
+            <h2>Skills</h2>
+            <p>Some of my Skills listed below</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-css3 fa-4x"></i>
+                <h3>Web Design CSS</h3> 
+                <p>Wordpress, Drupal, Joomla</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-network-wired fa-4x"></i>
+                <h3>Networking</h3>
+                <p>Designer, Consultant, Implementation</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-server fa-4x"></i>
+                <h3>Server</h3>
+                <p>Installation and Configuration of Servers (Windows/CentOS/RedHat/Ubuntu)</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-css3 fa-4x"></i>
+                <h3>CodeIgniter Developer</h3>
+                <p>Web Application Developement[ERP for School Management, Websites, Inventory Management System ]</p>
+            </div>
+            <!--<div class="servicesBx">
+                <i class="fa fa-android fa-4x"></i>
+                <h3>Laravel Developer</h3>
+                <p>Web Application Developement</p>
+            </div>-->
+            <div class="servicesBx">
+                <i class="fa fa-shield-alt fa-4x"></i>
+                <h3>WebSite Security Auditing</h3>
+                <p>In a training phase.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Work Layout in HTML -->
+
+    <section class="work" id="certifications">
+        <div class="heading">
+            <h2>Certifications</h2>
+            <p>Showcasing some of my <b>Skills gained through Certifications</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="images/autopsy.jpg" alt="">
+                    <p>Autopsy Basics and Hands On (8-Hours)- Basis Technology</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="images/network_forensics.jpg" alt="">
+                    <p>Network Forensics - Linkedin Learning</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="images/wireshark.jpg" alt="">
+                    <p>Learning Path: Wireshark -The Advanced Network Analysis Tool (9.5 Hrs) - Udemy</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="images/anonymity.jpg" alt="">
+                    <p>The Ultimate Dark Web, Anonymity, Privacy & Security Course (11 Hrs) - ZSecurity</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="images/php_mysql.jpg" alt="">
+                    <p>Beginner PHP and MySQL Tutorial (10.5 Hrs) - Udemy</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="images/comptia.jpg" alt="">
+                    <p>Comp TIA Security+ Certification (SY0-401) (13.5 Hrs) - Udemy</p>
+                </a>
+            </div>
+			<div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="images/CBT.jpg" alt="">
+                    <p>Develop Computer Based Test (CBT) and Chat App In PHP : 2020 (17.5 Hrs)[using CodeIgniter] - Udemy</p>
+                </a>
+            </div>
+			<div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="images/cert.jpg" alt="">
+                    <p>And Many More......</p>
+                </a>
+            </div>
+            <!--<div class="heading">
+                <a href="https://www.udemy.com/user/praveenkumar201/" target="_blank" class="btn" style="color:#fff;">View All My Courses</a>
+            </div>-->
+        </div>
+    </section>
+
+    <!-- Creating Testimonial Layout in HTML -->
+    <!--<section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Testimonial</h2>
+            <p>What my clients think about me</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Praveen did an excellent creative job, addressing our request quickly, and also providing his own graphic insight, being open to feedback and changes or edits when they arose. He worked with us the entire way. Highly recommended.</p>
+                <h3>Richard Wilson<br>Creative Designer</h3>
+            </div>
+            <div class="testimonialBx">
+                <p>I've been Searching for a good Portfolio Website done on html & css. This is definitely the one simple about myself with Responsive Design.  Thanks Praveen</p><h3>Joyce K<br>Web Designer (google)</h3>
+            </div>
+        </div>
+    </section>-->
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for freelance work if the right project<br> comes along, Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Dynan-Ganga,<br>46, Shukrawar Peth<br>Near Namdev Mandir,<br>Karad, Tal-Karad, Dist-Satara, 415110</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>(+91)7666025132</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>akshayhomkar@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+					<div class="icon">
+                            <a href="https://www.linkedin.com/in/akshay-homkar-663630a1/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+						<div class="icon">
+                            <a href="https://www.youtube.com/channel/UCK3Qxn4EromiEfeDFIv5gww" target="_blank">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.facebook.com/akshay.homkar.54/" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://twitter.com/AkshayDHomkar" target="_blank">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="icon">
+                            <a href="https://www.instagram.com/thizizakshayhomkar/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+						
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2021, Yourwebsite.com, Allrights reserved</p>
+    </footer>
+</body>
+</html>
